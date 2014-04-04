@@ -1,6 +1,6 @@
 package App::setop;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 1;
 # ABSTRACT: Set operations (union, intersection, difference) on lines of files
@@ -17,7 +17,7 @@ App::setop - Set operations (union, intersection, difference) on lines of files
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
