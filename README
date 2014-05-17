@@ -3,7 +3,8 @@ NAME
     of files
 
 VERSION
-    version 0.03
+    This document describes version 0.04 of App::setop (from Perl
+    distribution App-setop), released on 2014-05-17.
 
 SYNOPSIS
     See the command-line script setop.

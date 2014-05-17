@@ -1,6 +1,6 @@
 package App::setop;
 
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 1;
 # ABSTRACT: Set operations (union, intersection, difference) on lines of files
@@ -17,7 +17,7 @@ App::setop - Set operations (union, intersection, difference) on lines of files
 
 =head1 VERSION
 
-version 0.03
+This document describes version 0.04 of App::setop (from Perl distribution App-setop), released on 2014-05-17.
 
 =head1 SYNOPSIS
 
