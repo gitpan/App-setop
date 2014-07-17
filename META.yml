@@ -27,7 +27,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-setop
   homepage: https://metacpan.org/release/App-setop
   repository: git://github.com/sharyanto/perl-App-setop.git
-version: '0.05'
+version: '0.06'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
