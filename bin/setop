@@ -1,7 +1,7 @@
 #!perl
 
 our $DATE = '2014-07-17'; # DATE
-our $VERSION = '0.06'; # VERSION
+our $VERSION = '0.07'; # VERSION
 
 use 5.010001;
 use strict;
@@ -238,7 +238,7 @@ parse_cmdline();
 run();
 
 1;
-# ABSTRACT: Set operations (union, intersection, difference) on lines of files
+# ABSTRACT: Set operations (union, intersection, difference, symmetric diff) on lines of files
 # PODNAME: setop
 
 __END__
@@ -249,11 +249,11 @@ __END__
 
 =head1 NAME
 
-setop - Set operations (union, intersection, difference) on lines of files
+setop - Set operations (union, intersection, difference, symmetric diff) on lines of files
 
 =head1 VERSION
 
-This document describes version 0.06 of setop (from Perl distribution App-setop), released on 2014-07-17.
+This document describes version 0.07 of setop (from Perl distribution App-setop), released on 2014-07-17.
 
 =head1 SYNOPSIS
 
@@ -280,8 +280,8 @@ Show version and exit.
 
 Pick operation. Known operations are: B<union> (return lines from the first file
 and others, duplicate removed, order preserved), B<intersect> (return common
-lines found in every file, order preserved), C<diff> (return lines found in the
-first file but not the second, duplicate removed, order preserved), C<symdiff>
+lines found in every file, order preserved), B<diff> (return lines found in the
+first file but not the second, duplicate removed, order preserved), B<symdiff>
 (short for "symetric difference", return lines found in either file but not
 both, duplicate removed, order preserved).
 
